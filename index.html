@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    .card-group-fluid{
+      display:flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .card{
+      width: 14%;
+      height: 14%;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .card-img-1, .card-img-2, .card-img-3,.card-img-4,.card-img-5,.card-img-6,.card-img-7{
+    width: 51%;
+    height: 50%;
+    padding: 10px;
+
+  }
+  .h-1, .h-2, .h-3, .h-4, .h-5, .h-6, .h-7{
+    color: rgb(37, 137, 204);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   .section1{
+     display: flex;
+     padding: 10px;
+     margin: 40px;
+     box-sizing: border-box;
+     box-shadow: whitesmoke;
+     border: 2 px solid black;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+     background-color: aliceblue;
+   }
+   .part1{
+     width: 60%;
+     padding: 10px;
+     margin: 10px;
+   }
+   .part2{
+     align-items: flex-start;
+     width: 40%;
+     padding: 10px;
+     margin: 10px;
+
+   }
+
+   .section2{
+    padding: 10px;
+    margin: 10px;
+   }
+
+   .container-grid-fluid{
+     padding: 50px;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .row-grid{
+     display: flex;
+     padding: 10px;
+     background-color: aliceblue;
+   }
+
+   .col1{
+     width: 33.33%;
+     margin: 10px;
+     background-color:rgb(63, 63, 182);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+   }
+   .col2{
+     width: 33.33%;
+     margin: 10px;
+     background-color:rgb(89, 202, 89);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 15px;
+   border-radius: 5px;
+  }
+   .col3{
+     width: 33.33%;
+     margin: 10px;
+     background-color: rgb(247, 100, 47);
+     color: antiquewhite;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+   }
+   
+  </style>
+</head>
+
+  <body>
+  <!--Navbar using cards-->
+  <div class="card-group-fluid">
+
+    <div class="card" style="margin-right: 100px;">
+
+      <img src="services.jpg" class="card-img-1" alt="...">
+      <div class="card-body">
+        <h7 class="h-1">SERVICES</h7>
+      </div>
+
+    </div>
+    <div class="card">
+      <img src="home.jpg" class="card-img-2" alt="...">
+      <div class="card-body">
+       <h7 class="h-2">HOME</h7>
+      </div>
+    </div>
+    <div class="card">
+      <img src="features.jpg" class="card-img-3" alt="...">
+      <div class="card-body">
+        <h7 class="h-3">FEATURES</h7>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="examples.jpg" class="card-img-4" alt="...">
+      <div class="card-body">
+        <h7 class="h-4">EXAMPLES</h7>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="pages.png" class="card-img-5" alt="...">
+      <div class="card-body">
+        <h7 class="h-5">PAGES</h7>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="languages.png" class="card-img-6" alt="...">
+      <div class="card-body">
+        <h7 class="h-6">LANGUAGES</h7>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="contact.png" class="card-img-7" alt="...">
+      <div class="card-body">
+        <h7 class="h-7">CONTACT-US</h7>
+      </div>
+    </div>
+
+    </div>
+
+     <!--section 1-->
+    <section class="section1">
+           
+      <div class="Part1-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="image-fluid" src="bus_pic_1.png" class="d-block w-80" alt="...">
+            </div>
+
+            <div class="carousel-item">
+              <img class="image-fluid" src="bus_pic_5.jpg" class="d-block w-80" alt="...">
+            </div>
+
+            <div class="carousel-item">
+              <img class="image-fluid" src="bus_pic_3.jpg" class="d-block w-80" alt="...">
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+
+        <div class="Part2-fluid">
+          <div class="card-fluid">
+            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">STARTING YOUR OWN BUSINESSS</h1>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum, rem, est iure, natus deserunt aut architecto et 
+              </p>
+              <button type="button" class="btn btn-primary btn-lg">Read More</button>
+            </div>
+          </div>
+          </div>
+        
+      
+    </section>
+    
+    <!--section2-->
+
+    <section class="section-2">
+
+      <div class="container-grid-fluid">
+
+        <div class="row-grid">
+
+          <div class="col1" >
+            <h1>
+              TIME MACHINE
+            </h1>
+            <img class="img-fluid" src="clock_logo.jpg"style="border-radius: 5px;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veniam fugiat, ab iure optio sit et, quo quaerat non dolores consequatur facilis omnis doloremque, quis autem reprehenderit nam inventore quidem.</p>
+          </div>
+
+          <div class="col2">
+            <h1>
+              ANALYTICS
+            </h1>
+            <img class="img-fluid" src="anatytics_logo.jpg"style="border-radius: 5px;">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus et optio praesentium, autem, sint perspiciatis ducimus aperiam quae totam unde voluptate sapiente dolore qui dicta sequi suscipit voluptas. Expedita, tenetur!</p>
+          </div>
+
+          <div class="col3">
+            <h1>
+              WORDWIDE SERVICE
+            </h1>
+            <img class="img-fluid" src="globe_logo.jpg" style="border-radius: 5px;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse obcaecati fugit doloribus eveniet. Iusto aspernatur nam cum nostrum eligendi ipsa fugit nemo exercitationem consectetur accusamus. Aut tenetur dolores ut.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--section 3-->
+      <section class="section-3">
+        <div class="people-card">
+          <div class="row-cor">
+            <div class="col-md-12">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor1.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor2.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor3.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 3</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor4.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 4</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor5.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 5</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="single-box">
+                          <div class="img-area"><img src="cor6.jpg"></div>
+                          <div class="img-text">
+                            <h2>Project 6</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, rem consequuntur, id corporis praesentium expedita omnis numquam quae, sequi quos quaerat. Sint voluptatibus quos expedita culpa, quam nostrum maxime eligendi?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container my-5">
+          <!-- Footer -->
+          <footer
+                  class="text-center text-lg-start text-white"
+                  style="background-color: #929fba"
+                  >
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Links -->
+              <section class="">
+                <!--Grid row-->
+                <div class="row">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                      POPULAR ARTICLES
+                    </h6>
+                   <ul style="color: #3b5998;">
+                     <li>Subpages</li>
+                     <li>Error 404</li>
+                     <li>Exercises</li>
+                     <li>Topography</li>
+                     <li>All template position</li>
+                   </ul>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p>
+                      <a class="text-white">MDBootstrap</a>
+                    </p>
+                    <p>
+                      <a class="text-white">MDWordPress</a>
+                    </p>
+                    <p>
+                      <a class="text-white">BrandFlow</a>
+                    </p>
+                    <p>
+                      <a class="text-white">Bootstrap Angular</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <hr class="w-100 clearfix d-md-none" />
+        
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+        
+                    <!-- Facebook -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #3b5998"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-facebook-f"></i
+                      ></a>
+        
+                    <!-- Twitter -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #55acee"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-twitter"></i
+                      ></a>
+        
+                    <!-- Google -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #dd4b39"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-google"></i
+                      ></a>
+        
+                    <!-- Instagram -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #ac2bac"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-instagram"></i
+                      ></a>
+        
+                    <!-- Linkedin -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #0082ca"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                    <!-- Github -->
+                    <a
+                       class="btn btn-primary btn-floating m-1"
+                       style="background-color: #333333"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-github"></i
+                      ></a>
+                  </div>
+                </div>
+                <!--Grid row-->
+              </section>
+              <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              All rights reserved
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+        </div>
+        <!-- End of .container -->
+      </footer>
+  
+  <script src="js/bootstrap.js"></script>
+  </body>
+
+  </html>
